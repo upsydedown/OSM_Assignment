@@ -1,0 +1,25 @@
+*{
+ padding: 0rem;
+ margin: 0rem;
+ box-sizing: border-box;
+}
+
+.App_body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.App_map{
+    z-index: 10;
+}
+.App_map{
+    position: fixed;
+    top: 5rem;
+    left: 29.75rem;
+    height: 80vh;
+    width: 48vw;
+    margin: 1rem;
+    z-index: 1;
+}
